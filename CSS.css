@@ -1,0 +1,35 @@
+nav ul {
+display: flex;    
+flex-basis: 100%;
+justify-content: space-around;
+list-style-type: none;
+background-color: black;
+margin: 0;
+padding: 0;
+}
+
+nav a {color: white;}
+
+nav ul li { flex-basis: 20%; }
+
+ main {  display: flex; }
+ 
+ article {
+ flex-basis: 60%;
+ margin: 1.5em 2.52525% 0 2.0202%;
+}
+
+article img {max-width: 100%; margin-bottom: 1em;}
+
+aside {
+background-color: #ffebc6;
+flex-basis: 40%;
+padding: 2.0202%;
+max-width: 200px;
+min-width: 180px;
+margin: 1.5em 2.0202% 0 0;
+}
+
+footer {
+background-color: #ffb3b3;
+}
